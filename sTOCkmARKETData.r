@@ -1,6 +1,12 @@
 #Loading the Stock Market Data.
 # Target variable: Direction.
 # Method: Classification.
+
+# Importing the required libraries.
+library(tensorflow)
+library(keras)
+library(ISLR2)
+
 head(Smarket)
 sm <- Smarket
 
